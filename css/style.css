@@ -9,3 +9,9 @@ body {
   cursor: pointer;
   text-align: center;
 }
+.web {
+  text-decoration: none;
+}
+.p {
+  color: #757575;
+}
