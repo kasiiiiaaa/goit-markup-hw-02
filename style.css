@@ -5,9 +5,6 @@ body {
   line-height: 2;
   font-weight: 500;
 }
-.all {
-  color: blue;
-}
-button {
+.button {
   cursor: pointer;
 }
