@@ -8,6 +8,6 @@ body {
 .all {
   color: blue;
 }
-.button {
+button {
   cursor: pointer;
 }
