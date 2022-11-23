@@ -1,17 +1,92 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
-  font-size: 16px;
-  line-height: 2;
+  line-height: 16px;
   font-weight: 500;
+  font-size: 14px;
 }
 .button {
   cursor: pointer;
   text-align: center;
 }
-.web {
+.web-footer {
+  color: #000000;
+  margin-bottom: 161px;
+  margin-left: 215px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
   text-decoration: none;
 }
-.p {
+.web-header {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+span {
+  color: #2196f3;
+}
+p {
   color: #757575;
+}
+footer {
+  text-decoration: none;
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
+address {
+  margin-left: 215px;
+  margin-bottom: 60px;
+}
+header {
+  margin-left: 215px;
+  display: flex;
+}
+.effect {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+.effect-size {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.workers-size {
+  font-size: 16px;
+}
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.p-size {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.h3-size {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.button-size {
+  font-size: 16px;
 }
