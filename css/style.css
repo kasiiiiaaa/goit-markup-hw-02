@@ -5,18 +5,18 @@ body {
   font-weight: 500;
   font-size: 14px;
 }
-.button {
+button {
   cursor: pointer;
   text-align: center;
 }
 .web-footer {
-  color: #000000;
   margin-bottom: 161px;
   margin-left: 215px;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
+  color: #ffffff;
 }
 .web-header {
   text-decoration: none;
@@ -32,7 +32,8 @@ p {
   color: #757575;
 }
 footer {
-  text-decoration: none;
+  list-style-type: none;
+  color: #ffffff;
   background-color: #2f303a;
   width: 1600px;
   height: 252px;
@@ -42,10 +43,12 @@ address {
   margin-bottom: 60px;
 }
 header {
+  text-decoration: none;
   margin-left: 215px;
   display: flex;
 }
 .effect {
+  color: #ffffff;
   background-color: #2f303a;
   width: 1600px;
   height: 600px;
@@ -59,7 +62,6 @@ header {
   line-height: 60px;
 }
 h2 {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
@@ -67,13 +69,11 @@ h2 {
   font-size: 16px;
 }
 p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #757575;
 }
 .p-size {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
@@ -89,4 +89,8 @@ h3 {
 }
 .button-size {
   font-size: 16px;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
 }
