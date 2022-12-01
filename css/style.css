@@ -4,10 +4,19 @@ body {
   line-height: 16px;
   font-weight: 500;
   font-size: 14px;
+  height: 2349px;
+  width: 1600px;
+  left: 3444px;
 }
-button {
+.button {
   cursor: pointer;
   text-align: center;
+  color: #ffffff;
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 16px;
 }
 .web-footer {
   margin-bottom: 161px;
@@ -25,27 +34,34 @@ button {
   font-size: 26px;
   line-height: 31px;
 }
-span {
+.span {
   color: #2196f3;
 }
-p {
-  color: #757575;
-}
-footer {
+.footer {
   list-style-type: none;
   color: #ffffff;
   background-color: #2f303a;
   width: 1600px;
   height: 252px;
+  text-decoration: none;
 }
-address {
+.footer:hover {
+  text-decoration: underline;
+}
+.underline-none {
+  text-decoration: none;
+}
+.address {
   margin-left: 215px;
   margin-bottom: 60px;
 }
-header {
+.header {
   text-decoration: none;
   margin-left: 215px;
   display: flex;
+}
+.header:hover {
+  text-decoration: underline;
 }
 .effect {
   color: #ffffff;
@@ -55,29 +71,39 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
+  text-align: center;
+  padding-top: 200px;
 }
 .effect-size {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
 }
-h2 {
-  font-size: 14px;
+.h2 {
+  font-size: 36px;
   line-height: 24px;
+  text-align: center;
 }
 .workers-size {
   font-size: 16px;
 }
-p {
+.p {
   font-size: 14px;
   line-height: 24px;
   color: #757575;
 }
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
+}
 .p-size {
   font-size: 16px;
   line-height: 19px;
+  color: #757575;
 }
-h3 {
+.h3 {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -86,11 +112,4 @@ h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-}
-.button-size {
-  font-size: 16px;
-}
-ul {
-  text-decoration: none;
-  list-style-type: none;
 }
