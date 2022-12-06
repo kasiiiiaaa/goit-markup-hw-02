@@ -8,7 +8,7 @@ body {
   width: 1600px;
   left: 3444px;
 }
-.button {
+button {
   cursor: pointer;
   text-align: center;
   color: #ffffff;
@@ -17,6 +17,12 @@ body {
   height: 50px;
   border-radius: 4px;
   font-size: 16px;
+}
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style-type: none;
 }
 .web-footer {
   margin-bottom: 161px;
