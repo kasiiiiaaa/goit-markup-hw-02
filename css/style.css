@@ -1,12 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   color: #212121;
-  line-height: 16px;
-  font-weight: 500;
-  font-size: 14px;
-  height: 2349px;
-  width: 1600px;
-  left: 3444px;
 }
 button {
   cursor: pointer;
@@ -17,6 +11,9 @@ button {
   height: 50px;
   border-radius: 4px;
   font-size: 16px;
+}
+.color-inehrit {
+  color: inherit;
 }
 .lorem-ipsum {
   display: flex;
@@ -29,7 +26,7 @@ button {
   margin-left: 215px;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 67;
   text-decoration: none;
   color: #ffffff;
 }
@@ -38,7 +35,7 @@ button {
   color: #000000;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 2, 8;
 }
 .span {
   color: #2196f3;
@@ -63,10 +60,22 @@ button {
 }
 .header {
   text-decoration: none;
+  list-style-type: none;
   margin-left: 215px;
   display: flex;
 }
 .header:hover {
+  text-decoration: underline;
+  color: #2196f3;
+}
+.link-color {
+  color: #757575;
+  text-decoration: none;
+}
+.link-color:focus {
+  text-decoration: underline;
+}
+.link-color:hover {
   text-decoration: underline;
 }
 .effect {
@@ -76,26 +85,27 @@ button {
   height: 600px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 33;
   text-align: center;
   padding-top: 200px;
 }
 .effect-size {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 0, 67;
 }
 .h2 {
   font-size: 36px;
-  line-height: 24px;
+  line-height: 2, 24;
   text-align: center;
+  color: inherit;
 }
 .workers-size {
   font-size: 16px;
 }
 .p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 4, 25;
   color: #757575;
 }
 .lorem-ipsum {
@@ -106,16 +116,17 @@ button {
 }
 .p-size {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 11, 68;
   color: #757575;
 }
 .h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 83;
+  color: inherit;
 }
 .h3-size {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 12, 16;
 }
