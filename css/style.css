@@ -61,8 +61,18 @@ body {
   margin-left: 215px;
   display: flex;
 }
-.link-color {
+.link-color-class {
   color: #757575;
+  text-decoration: none;
+}
+.link-color-class:focus {
+  text-decoration: underline;
+}
+.link-color-class:hover {
+  text-decoration: underline;
+}
+.link-color {
+  color: inherit;
   text-decoration: none;
 }
 .link-color:focus {
