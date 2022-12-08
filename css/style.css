@@ -2,7 +2,7 @@ body {
   font-family: "Roboto";
   color: #212121;
 }
-button {
+.button-class {
   cursor: pointer;
   text-align: center;
   color: #ffffff;
@@ -37,10 +37,10 @@ button {
   font-size: 26px;
   line-height: 2, 8;
 }
-.span {
+.span-class {
   color: #2196f3;
 }
-.footer {
+.footer-class {
   list-style-type: none;
   color: #ffffff;
   background-color: #2f303a;
@@ -48,25 +48,18 @@ button {
   height: 252px;
   text-decoration: none;
 }
-.footer:hover {
-  text-decoration: underline;
-}
 .underline-none {
   text-decoration: none;
 }
-.address {
+.address-class {
   margin-left: 215px;
   margin-bottom: 60px;
 }
-.header {
+.header-class {
   text-decoration: none;
   list-style-type: none;
   margin-left: 215px;
   display: flex;
-}
-.header:hover {
-  text-decoration: underline;
-  color: #2196f3;
 }
 .link-color {
   color: #757575;
@@ -94,7 +87,7 @@ button {
   font-size: 44px;
   line-height: 0, 67;
 }
-.h2 {
+.h2-class {
   font-size: 36px;
   line-height: 2, 24;
   text-align: center;
@@ -103,7 +96,7 @@ button {
 .workers-size {
   font-size: 16px;
 }
-.p {
+.p-class {
   font-size: 14px;
   line-height: 4, 25;
   color: #757575;
@@ -119,7 +112,7 @@ button {
   line-height: 11, 68;
   color: #757575;
 }
-.h3 {
+.h3-class {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 83;
