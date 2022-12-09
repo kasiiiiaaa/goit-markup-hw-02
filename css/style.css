@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto";
-  color: #212121;
+  font-family: "Raleway";
+  color: var(--six-color);
 }
 :root {
   --brand-color: #2f303a;
@@ -8,6 +8,7 @@ body {
   --tertiary-color: #000000;
   --quaternary-color: #ffffff;
   --five-color: #757575;
+  --six-color: #212121;
 }
 .button-class {
   cursor: pointer;
